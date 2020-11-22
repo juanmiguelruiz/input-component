@@ -1,0 +1,107 @@
+.blue {
+  color: #2962ff;
+}
+
+.error{
+    border: 1px solid ;
+    border: 1px solid #D32F2F !important;
+
+}
+
+.focus {
+  border: 1px solid #2962ff;
+}
+
+.input__fullWidth{
+    width: 400%;
+}
+
+.input__multiLine{
+    height: 180px;
+}
+
+.input__multiLine::placeholder{
+    position: relative;
+}
+
+.helper-text{
+    font-family: Noto Sans JP;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 14px;
+
+
+color: #828282;
+}
+
+
+input:focus.error{
+    outline: none;
+  border: 1px solid #D32F2F !important;
+}
+
+input {
+  display: flex;
+  border: 1px solid #828282;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+input:disabled{
+    background-color: #E0E0E0;
+    
+}
+
+input::placeholder {
+  font-family: Noto Sans JP;
+  color: #828282;
+}
+
+input:hover {
+  border: 1px solid black;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #2962ff;
+}
+
+.input-label {
+  font-family: Noto Sans JP;
+  padding-top: 5%;
+  font-size: 0.8em;
+}
+
+.red {
+  color: #D32F2F;
+}
+.start-icon{
+    position: absolute;
+    left: 0;
+    width: 0;
+    margin-top: 15px;
+    color: #828282;
+}
+
+.end-icon{
+    position: relative;
+    float: right;
+    width: 0px;
+    margin-top: -38px;
+    margin-right: 34px;
+}
+
+.input__startIcon::placeholder{
+   padding-left: 10%;
+}
+
+.sm {
+  padding: 9px 12px;
+}
+.md {
+  padding: 18px 25px;
+}
+.lg {
+  padding: 11px 22px;
+}
