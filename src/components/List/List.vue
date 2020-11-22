@@ -49,72 +49,83 @@
         </div>
       </div>
 
-       <div class="row">
+      <div class="row">
         <div class="input-container">
           <Label text="<Input helperText=”Some interesting text” />" />
-          <Input label="Label" placeholder="Placeholder" text="input" helperText="Some interesting text" />
+          <Input
+            label="Label"
+            placeholder="Placeholder"
+            text="input"
+            helperText="Some interesting text"
+          />
         </div>
         <div class="input-container">
           <Label text="<Input helperText=”Some interesting text error” />" />
-          <Input error label="Label" placeholder="Placeholder" text="input" helperText="Some interesting text" />
+          <Input
+            error
+            label="Label"
+            placeholder="Placeholder"
+            text="input"
+            helperText="Some interesting text"
+          />
         </div>
-       
       </div>
 
-        <div class="row">
+      <div class="row">
         <div class="input-container col-6">
           <Label text="<Input startIcon />" />
-          <Input  startIcon="telephone" label="Label" placeholder="Placeholder" text="input" helperText="Some interesting text" />
+          <Input
+            startIcon="telephone"
+            label="Label"
+            placeholder="Placeholder"
+            text="input"
+            helperText="Some interesting text"
+          />
         </div>
         <div class="input-container col-6">
           <Label text="<Input endIcon />" />
-          <Input endIcon="fingerprint" error label="Label" placeholder="Placeholder" helperText="Some interesting text" />
+          <Input
+            endIcon="fingerprint"
+            error
+            label="Label"
+            placeholder="Placeholder"
+            helperText="Some interesting text"
+          />
         </div>
-       
       </div>
 
-       <div class="row">
+      <div class="row">
         <div class="input-container col-6">
-          <Label text="<Input startIcon />" />
+          <Label text="<Input value=”Text” />" />
           <Input value="Text" label="Label" placeholder="Placeholder" />
         </div>
-       
-       
       </div>
 
-       <div class="row">
+      <div class="row">
         <div class="input-container col-6">
           <Label text="<Input size=”sm” />" />
           <Input size="sm" label="Label" placeholder="Placeholder" />
         </div>
 
-         <div class="input-container col-6">
+        <div class="input-container col-6">
           <Label text="<Input size=”md” />" />
           <Input size="md" label="Label" placeholder="Placeholder" />
         </div>
-       
-       
       </div>
 
-             <div class="row">
+      <div class="row">
         <div class="input-container col-6">
           <Label text="<Input fullWidth />" />
           <Input fullWidth label="Label" placeholder="Placeholder" />
         </div>
-             </div>
+      </div>
 
-     <div class="row">
+      <div class="row">
         <div class="input-container col-6">
           <Label text="<Input multiLine />" />
           <Input multiLine label="Label" placeholder="Placeholder" />
         </div>
-        
-       
-       
       </div>
-
-      
-       
     </div>
   </div>
 </template>
